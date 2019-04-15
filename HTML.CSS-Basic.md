@@ -35,34 +35,37 @@ W3C (World Wide Consortium)에서 정의하는 기술 표준을 말한다. 사�
 
 ## [Multi selector]
 1. 자식 selector: [ > ] 
-	~안에의 의미로 > 만 사용이 가능하며 왼쪽이 부모 혹은 더 큰 selector을 넣는다.
-		Ex) div > p (div 안에 P만 선택)
+~안에의 의미로 > 만 사용이 가능하며 왼쪽이 부모 혹은 더 큰 selector을 넣는다.
+	Ex) div > p (div 안에 P만 선택)
 
 2. 후손 tag: [ space ]
-	~안에 있는 A 모두를 선택 할 때 사용한다. 
-		Ex) div p (div 안에 P모두 선택)
+~안에 있는 A 모두를 선택 할 때 사용한다. 
+	Ex) div p (div 안에 P모두 선택)
 
 3. 그룹selector: [ , ] (쉼표)
-	다수에 selector에 공통된 스타일을 주고 싶을 경우 사용한다. 
-		Ex) div, p, a (div, p, a 모두)
+다수에 selector에 공통된 스타일을 주고 싶을 경우 사용한다. 
+	Ex) div, p, a (div, p, a 모두)
 
 4. 특정 id 값: [ selector.id ]
-	~안에 A 특정 태그 선택. 
-		Ex) p.foo (p태그 안에  id=”foo”을 가진 요소 선택)
+~안에 A 특정 태그 선택. 
+	Ex) p.foo (p태그 안에  id=”foo”을 가진 요소 선택)
 
 ## [Web page 설계 방식]
 
 3단 구조: header, body(content), footer
 4단 구조: header, navigation ,body(content), footer
 
-1.	선형화 단계 = 	화면 구성 나누기
-2.	시멘틱 요소 = 	그룹화 하기
+###### 1.선형화 단계
+화면 구성 나누기
+###### 2.시멘틱 요소 	
+그룹화 하기
+
+##### 3.Naming
+파스칼 첫 대문자
+카멜 첫 소문자 두번째 대문자
+
 a.	aside = 부가 정보
 b.	article = 독립적인 , section = 콘텐츠 블록  Markup
-3.	Naming = 	파스칼 첫 대문자
-i.	카멜 첫 소문자 두번째 대문자
-
-
 	
 
  
