@@ -1,28 +1,28 @@
-# Box Model / 박스모델
+# Box Model
 
 ## [Box Model]
+
 = Float
-	Left
-	Right
-	Clear: both
+Left
+Right
+Clear: both
 = Display
-	Inline
-	Inline-block
-	Block
+Inline
+Inline-block
+Block
 = Overflow
-	Hidden
+Hidden
 
 = Flex
-	Content
-	Items
+Content
+Items
 = Box-sizing
-	Border-box
+Border-box
 
 [Object size]
-= Vm 
+= Vm
 = Vw
 
-
 [가상에 박스 모델]
-*::before { }
-*::after { }
+_::before { }
+_::after { }
